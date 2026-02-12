@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="flex items-center space-x-3">
+        <a href="/" className="flex items-center space-x-3">
           <div className="flex h-14 w-auto items-center">
             <Image src="/davnsci-logo.svg" alt="DAVnSCI Logo" width={160} height={56} className="h-14 w-auto" />
           </div>
@@ -19,22 +19,22 @@ export function Header() {
         </a>
 
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-sm font-medium hover:text-primary">
+          <a href="/services" className="text-sm font-medium hover:text-primary">
             Services
           </a>
-          <a href="#workflows" className="text-sm font-medium hover:text-primary">
+          <a href="/workflows" className="text-sm font-medium hover:text-primary">
             Workflows
           </a>
-          <a href="#industries" className="text-sm font-medium hover:text-primary">
+          <a href="/industries" className="text-sm font-medium hover:text-primary">
             Industries
           </a>
-          <a href="#resources" className="text-sm font-medium hover:text-primary">
+          <a href="/resources" className="text-sm font-medium hover:text-primary">
             Resources
           </a>
-          <a href="#about" className="text-sm font-medium hover:text-primary">
+          <a href="/about" className="text-sm font-medium hover:text-primary">
             About
           </a>
-          <a href="#contact" className="text-sm font-medium hover:text-primary">
+          <a href="/contact" className="text-sm font-medium hover:text-primary">
             Contact
           </a>
         </nav>
