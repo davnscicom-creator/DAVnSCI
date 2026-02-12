@@ -1,4 +1,4 @@
-export default function ServicesPage() {
+"use client";export default function ServicesPage() {
   return (
     <main className="container mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold mb-6">Our Services</h1>
