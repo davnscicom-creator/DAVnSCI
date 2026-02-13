@@ -54,22 +54,34 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden border-t bg-background">
           <nav className="container py-4 space-y-4">
-            <a href="#services" className="block text-sm font-medium hover:text-primary">
+            <a href="/services"
+            onClick={() => setIsMenuOpen(false)} 
+            className="block text-sm font-medium hover:text-primary">
               Services
             </a>
-            <a href="#workflows" className="block text-sm font-medium hover:text-primary">
+            <a href="/workflows"
+            onClick={() => setIsMenuOpen(false)} 
+            className="block text-sm font-medium hover:text-primary">
               Workflows
             </a>
-            <a href="#industries" className="block text-sm font-medium hover:text-primary">
+            <a href="/Industries"
+            onClick={() => setIsMenuOpen(false)}
+            className="block text-sm font-medium hover:text-primary">
               Industries
             </a>
-            <a href="#resources" className="block text-sm font-medium hover:text-primary">
-              Resources
-            </a>
-            <a href="#about" className="block text-sm font-medium hover:text-primary">
+            <a href="/resources"
+            onClick={() => setIsMenuOpen(false)}
+             className="block text-sm font-medium hover:text-...">
+  Resources
+</a>
+            <a<a href="/About"
+            onClick={() => setIsMenuOpen(false)}
+            className="block text-sm font-medium hover:text-primary">
               About
             </a>
-            <a href="#contact" className="block text-sm font-medium hover:text-primary">
+            <a href="/contact"
+            onClick={() => setIsMenuOpen(false)} 
+            className="block text-sm font-medium hover:text-primary">
               Contact
             </a>
             <div className="pt-4">
