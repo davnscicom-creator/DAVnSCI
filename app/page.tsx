@@ -1,6 +1,6 @@
 "use client"
 
-import { HeroSection } from "@/components/hero-section"export default function HomePage() {
+export default function HomePage() {
   return (
     <main><section className="py-20">
   <div className="container mx-auto px-6">
