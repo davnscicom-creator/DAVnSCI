@@ -1,8 +1,47 @@
-export default function HomePage() {
-  return (
-    <main>
+"use client"
 
-      <HeroSection />
+import { HeroSection } from "@/components/hero-section"export default function HomePage() {
+  return (
+    <main><section className="py-20">
+  <div className="container mx-auto px-6">
+    <p className="text-sm font-medium tracking-wide uppercase text-muted-foreground mb-4">
+      High-end scientific consultancy + training
+    </p>
+
+    <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+      Turn complex biological data into decisions, publications, and impact.
+    </h1>
+
+    <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+      DAVnSCI supports researchers, PhD scholars, and industry R&amp;D with rigorous
+      data analysis, publication-grade visualisation, and credible scientific communication—
+      especially for omics and high-dimensional datasets.
+    </p>
+
+    <div className="flex flex-col sm:flex-row gap-4">
+      <a
+        href="/services"
+        className="inline-flex items-center justify-center rounded-md px-6 py-3 font-medium bg-primary text-primary-foreground"
+      >
+        Explore Consultancy
+      </a>
+
+      <a
+        href="/resources"
+        className="inline-flex items-center justify-center rounded-md px-6 py-3 font-medium border"
+      >
+        Explore Training
+      </a>
+
+      <a
+        href="/contact"
+        className="inline-flex items-center justify-center rounded-md px-6 py-3 font-medium border"
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* Core Capabilities */}
       <section className="py-20">
